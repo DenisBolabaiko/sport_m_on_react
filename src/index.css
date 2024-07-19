@@ -11,3 +11,183 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #f4f4f4;
+}
+
+.shop-cart {
+  float: right;
+  cursor: pointer;
+  transition: color 500ms ease;
+}
+
+.shop-cart:hover {
+  color: #7d1414ec;
+}
+
+.logo {
+  width: 100px;
+}
+
+.nav-list {
+  list-style-type: none;
+  display: flex;
+}
+
+.nav-item {
+  margin-right: 20px;
+  cursor: pointer;
+  overflow: hidden;
+  background-color: #5666ce;
+  border-radius: 10px;
+}
+
+.nav-item:active {
+  background-color: #1d0c7d;
+}
+
+.cart-icon {
+  width: 20px;
+  height: auto;
+}
+
+.cart-count {
+  position: absolute;
+  top: -5px;
+  right: -5px;
+  background-color: #ff0000;
+  color: #fff;
+  padding: 4px 8px;
+  border-radius: 50%;
+  font-size: 12px;
+}
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+
+}
+
+.product-card {
+  border: 1px solid #eaeaea;
+  padding: 10px;
+  border-radius: 20px;
+  margin: 10px 0;
+}
+
+.product-image {
+  width: 100%;
+  height: 300px;
+  border-radius: 20px;
+}
+
+.card-details {
+  padding: 10px;
+  border-top: 1px solid #eaeaea;
+}
+
+.product-title {
+  font-size: 16px;
+  margin-top: 5px;
+}
+
+.product-price {
+  font-size: 14px;
+  margin-top: 5px;
+}
+
+.add-to-cart {
+  background-color: #a600ffde;
+  color: #fff;
+  height: 35px;
+  width: 150px;
+  border: none;
+  padding: 5px 10px;
+  font-size: 14px;
+  margin-top: 10px;
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+
+.search-bar {
+  display: flex;
+  align-items: center;
+  width: 300px;
+  margin: 10px;
+}
+
+.head-item {
+  height: 23px;
+  width: 80px;
+  padding: 10px 10px;
+  margin-left: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  text-decoration: none;
+  color: white;
+  cursor: pointer;
+
+}
+
+.head-item:hover {
+  background-color: #0056b3;
+}
+
+.head-item.selected {
+  color: black;
+  background-color: #f0f0f09f;
+}
+
+input {
+  padding: 10px;
+  flex: 1;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  padding: 10px 20px;
+  margin-left: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.size-button {
+  padding: 10px 10px;
+}
+
+.size-button.selected {
+  color: black;
+  background-color: #f0f0f09f;
+}
+
+.add-to-cart:hover {
+  background-color: #ff0000;
+}
+
+.nav-item.selected {
+  color: black;
+  background-color: #f0f0f09f;
+}

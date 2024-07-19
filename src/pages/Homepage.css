@@ -1,0 +1,16 @@
+.header {
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px;
+}
+
+.content {
+    background-color: #fff;
+    padding: 20px;
+}
+
+.footer {
+    background-color: #f39c12;
+    color: #fff;
+    padding: 10px;
+}
